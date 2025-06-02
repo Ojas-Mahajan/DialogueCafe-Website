@@ -27,17 +27,14 @@
 
 
 
-
-
   <header>
 
     <div class="header-container">
       <div class="logo">
-        <img src="dialogue cafe.jpg" alt="Dialogue Café Logo" class="logo-img">
+        <img src="Images\dialogue cafe.jpg" alt="Dialogue Café Logo" class="logo-img">
       </div>
 
 
-      <!-- dialogue cafe.jpg -->
 
 
       <nav>
@@ -46,7 +43,8 @@
           <li><a href="#about">About</a></li>
           <li><a href="#menu">Menu</a></li>
           <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+       
         </ul>
         <span id="hamburger-btn" class="fa fa-bars"></span>
       </nav>
@@ -62,34 +60,42 @@
 
   <main>
 
-    <!-- HERO Section -->
-    <section class="hero" id="home">
-      <!-- <div class="hero-content"> -->
-
-      <div class="hero-content" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="0">
 
 
 
-        <h1>Welcome to Dialogue Café</h1>
-        <p class="subtitle">Continental · Mexican · Chinese · North Indian · American</p>
+    <!-- ABOUT Section -->
+
+    <section class="hero-split" id="home">
+      <div class="hero-left">
+        <img src="Images\JuneCAFE.jpg" alt="Cafe Interior">
+      </div>
+      <div class="hero-right">
+        <h1 data-aos="fade-down" data-aos-duration="1200">Welcome to Dialogue Café</h1>
+
+        <p class="subtitle" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="200">
+          <a href="Images/MENU1.jpg" target="_blank" class="menu-link">Continental</a> ·
+          <a href="Images/MENU3.jpg" target="_blank" class="menu-link">Mexican</a> ·
+          <a href="Images/MENU4.jpg" target="_blank" class="menu-link">Chinese</a> ·
+          <a href="Images/MENU5.jpg" target="_blank" class="menu-link">North Indian</a> ·
+          <a href="Images/MENU2.jpg" target="_blank" class="menu-link">American</a>
+        </p>
+
+
         <div class="hero-buttons">
           <a href="#menu" class="btn">Menu</a>
           <a href="#contact" class="btn highlight">Book a Table</a>
         </div>
       </div>
-      <div class="hero-gallery">
-        <img src="bar.jpg" alt="Bar" class="gallery-img" />
-        <img src="Snacks.jpg" alt="Snacks" class="gallery-img" />
-        <img src="beverages.jpg" alt="Beverages" class="gallery-img" />
-      </div>
-    </section> -->
+    </section>
 
 
-    <!-- ABOUT Section -->
+
+
+
 
 
     <section class="about" id="about">
-      <div class="about-content" data-aos="fade-right">
+      <div class="about-text" data-aos="fade-right">
         <h2>About Us</h2>
         <p>
           Located in the heart of Chandigarh, <strong>Dialogue Café</strong> offers a vibrant mix of
@@ -108,10 +114,14 @@
         </ul>
       </div>
 
-      <div class="about-img" data-aos="fade-left">
-        <img src="cafe1.jpg" alt="Cafe Interior" />
+      <div class="about-images" data-aos="fade-left">
+        <img src="Images\cafe1.jpg" alt="Cafe Entrance">
+        <img src="Images\bar.jpg" alt="Food Variety">
+        <img src="Images\beverages.jpg" alt="Beverage Setup">
       </div>
     </section>
+
+
 
 
 
@@ -128,22 +138,33 @@
     <section class="gallery" id="gallery">
       <h2>Gallery</h2>
       <div class="gallery-grid">
-        <img src="interiors.jpg" alt="" class="modal-img" />
 
-        <img src="interiors3.jpg" alt="" class="modal-img" />
-        <img src="cafe2.jpg" alt="" class="modal-img" />
-        <img src="cafe5.jpg" alt="" class="modal-img">
-        <img src="food2.jpg" alt="" height="10" class="modal-img">
-        <img src="food3.jpg" alt="" class="modal-img">
-        <img src="pasta.jpg" alt="" class="modal-img">
-        <img src="paneer.jpg" alt="" class="modal-img">
-        <img src="momos.jpg" alt="" class="modal-img">
-        <img src="noodles.jpg" alt="" class="modal-img">
-        <img src="mocktail.jpg" alt="" class="modal-img">
-        <img src="waffles.jpg" alt="" class="modal-img">
+
+
+
+
+
+        <img src="Images\interiors.jpg" alt="" class="modal-img" data-aos="fade-up" data-aos-duration="600">
+
+        <img src="Images\interiors3.jpg" alt="" class="modal-img" data-aos="fade-up" data-aos-duration="600">
+        <img src="Images\cafe2.jpg" alt="" class="modal-img" data-aos="fade-up" data-aos-duration="600">
+        <img src="Images\cafe5.jpg" alt="" class="modal-img" data-aos="fade-up" data-aos-duration="600">
+        <img src="Images\food2.jpg" alt="" height="10" class="modal-img" data-aos="fade-up" data-aos-duration="600">
+        <img src="Images\food3.jpg" alt="" class="modal-img" data-aos="fade-up" data-aos-duration="600">
+        <img src="Images\pasta.jpg" alt="" class="modal-img" data-aos="fade-up" data-aos-duration="600">
+        <img src="Images\paneer.jpg" alt="" class="modal-img" data-aos="fade-up" data-aos-duration="600">
+        <img src="Images\quesadillas.jpg" alt="" class="modal-img" data-aos="fade-up" data-aos-duration="600">
+        <img src="Images\noodles.jpg" alt="" class="modal-img" data-aos="fade-up" data-aos-duration="600">
+        <img src="Images\mocktail.jpg" alt="" class="modal-img" data-aos="fade-up" data-aos-duration="600">
+        <img src="Images\waffles.jpg" alt="" class="modal-img" data-aos="fade-up" data-aos-duration="600">
 
       </div>
     </section>
+
+
+
+
+
 
 
 
@@ -162,45 +183,63 @@
 
 
     <section class="menu-section " id="menu-section">
-      <h2>Our Menu</h2>
+      <h2 data-aos="fade-down" data-aos-duration="1000" data-aos-offset="100">Our Menu</h2>
 
-      <!-- FOOD SECTION -->
+
+      <!-- MENU SECTION -->
       <div class="menu-category">
         <h3>🍽 Food Menu</h3>
         <div class="menu-grid">
-          <img src="menu1.jpg" alt="Continental Cuisine" class="modal-img menu-photo">
-          <img src="menu2.jpg" alt="Burgers, Waffles & American Classics" class="modal-img menu-photo">
-          <img src="menu3.jpg" alt="Mexican" class="modal-img menu-photo">
-          <img src="menu4.jpg" alt="Chinese" class="modal-img menu-photo">
-          <img src="menu5.jpg" alt="Traditional Indian Cuisine" class="modal-img menu-photo">
+          <img src="Images\MENU1.jpg" alt="Continental Cuisine" class="modal-img menu-photo" id="continental">
+          <img src="Images\MENU3.jpg" alt="Mexican" class="modal-img menu-photo" id="mexican">
+          <img src="Images\MENU4.jpg" alt="Chinese" class="modal-img menu-photo" id="chinese">
+          <img src="Images\MENU5.jpg" alt="Traditional Indian Cuisine" class="modal-img menu-photo" id="north-indian">
+          <img src="Images\MENU2.jpg" alt="American Classics" class="modal-img menu-photo" id="american">
+
 
 
         </div>
       </div>
 
       <!-- BEVERAGE SECTION -->
-      <div class="menu-category">
+      <div class="menu-category" id="beverages">
         <h3>🍹 Beverages</h3>
         <div class="menu-grid">
-          <img src="beveragesMenu.jpg" alt="Beverages" class="modal-img menu-photo">
+          <img src="Images/beveragesMenu.jpg" alt="Beverages" class="modal-img menu-photo">
         </div>
       </div>
-    </section>
 
 
 
 
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-      <h2>Contact Us</h2>
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
+      <!-- CONTACT Section -->
+      <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
   </main>
+
+
+
+
+  <!-- GOOGLE MAP SECTION -->
+  <section class="map-section" id="location">
+ <h2 class="map-heading" data-aos="fade-down" data-aos-duration="1000">Find Us</h2>
+
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.3212857183516!2d76.76799357454443!3d30.735360074608795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed38b5d268b9%3A0x8fcff6e153df6c4f!2sDialogue%20Cafe!5e0!3m2!1sen!2sin!4v1717264264282!5m2!1sen!2sin"
+        width="100%" height="400" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
 
 
 
@@ -208,10 +247,15 @@
   <footer>
     <div>© 2025 Dialogue Café | All rights reserved.</div>
     <div class="footer-social">
-      <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/Dialoguecafe35/" target="_blank" title="Facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/dialoguecafe35chd/?hl=en" target="_blank" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
     </div>
   </footer>
+
   <script src="script.js"></script>
 
   <!--  hover text -->
@@ -231,12 +275,19 @@
     <a href="https://www.instagram.com/dialoguecafe35chd/?hl=en" target="_blank" class="social-icon ig"
       title="📷 Instagram">
       <i class="fab fa-instagram"></i>
+
+
+      <a href="https://x.com/OrangeInn35chd" target="_blank" class="social-icon x" title="X (Twitter)">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+
     </a>
   </div>
 
   <div class="floating-social">
     ...
   </div>
+
 
 
 

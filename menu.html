@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Menu | Dialogue Café</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Optional: Font Awesome (if you use icons like hamburger) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <h1 style="font-family: 'Lobster', cursive;">Menu</h1>
+    <nav>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <span id="hamburger-btn" class="fa fa-bars"></span>
+    </nav>
+  </header>
+
+  <main>
+    <section class="menu-section" id="menu-section">
+      <h2 class="about-heading" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="100">Our Menu</h2>
+
+      <p class="menu-description">
+        Explore our handcrafted menu featuring <strong>Continental, Mexican, North Indian, Chinese</strong> and other
+        global flavors. Whether you're craving comfort classics or bold bites, we've got something delicious waiting for
+        you.
+      </p>
+
+
+      <!-- FOOD MENU -->
+      <div class="menu-category">
+        <h3>🍽 Food Menu</h3>
+        <div class="menu-grid">
+          <img src="Images/MENU1.jpg" alt="Continental Cuisine" class="modal-img menu-photo" id="continental">
+          <img src="Images/MENU3.jpg" alt="Mexican" class="modal-img menu-photo" id="mexican">
+          <img src="Images/MENU4.jpg" alt="Chinese" class="modal-img menu-photo" id="chinese">
+          <img src="Images/MENU5.jpg" alt="Traditional Indian Cuisine" class="modal-img menu-photo" id="north-indian">
+          <img src="Images/MENU2.jpg" alt="American Classics" class="modal-img menu-photo" id="american">
+        </div>
+      </div>
+      
+
+      <!-- BEVERAGES MENU-->
+      <div class="menu-category" id="beverages">
+        <h3>🍹 Beverages</h3>
+        <div class="menu-grid">
+          <img src="Images/beveragesMenu.jpg" alt="Beverages" class="modal-img menu-photo">
+        </div>
+      </div>
+
+      <!-- QR CODE -->
+      <div class="menu-category" id="menu-qr">
+        <h3>📲 Scan for Full Menu</h3>
+        <div class="menu-grid">
+          <img src="Images/Menu QR .png" alt="Dialogue Cafe Full Menu QR" class="menu-photo">
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>

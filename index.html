@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <!-- // hover code -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -9,12 +11,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dialogue Café</title>
+
+  <!-- // IMPORTING FONTS -->
+
   <link href="https://fonts.googleapis.com/css2?family=Allura&family=Special+Elite&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Fredericka+the+Great&display=swap"
+    rel="stylesheet">
 
 
   <link rel="stylesheet" href="style.css" />
@@ -22,11 +29,12 @@
 
 </head>
 
+
+
+
 <body>
 
-
-
-
+  <!-- HEADER BAR SECTION -->
   <header>
 
     <div class="header-container">
@@ -35,20 +43,37 @@
       </div>
 
 
-
-
       <nav>
         <ul id="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-       
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+
         </ul>
         <span id="hamburger-btn" class="fa fa-bars"></span>
       </nav>
     </div>
+ 
+    
+      <!-- // OLD LINKS -->
+
+<!-- 
+    <nav>
+  <ul id="nav-links">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+  <span id="hamburger-btn" class="fa fa-bars"></span>
+</nav> -->
+
+
+
+
     <div class="contact-info">
       <i class="fa fa-map-marker-alt"></i> SCO 301-302, Sector 35, Chandigarh
       <span class="divider">|</span>
@@ -62,24 +87,21 @@
 
 
 
+    <!-- WELCOME TO DAILOUGE CAFE SECTION-->
 
-    <!-- ABOUT Section -->
+    <section class="hero-section" id="home">
+      <img src="Images/JuneCAFE.jpg" alt="Cafe Interior" class="background-img" />
 
-    <section class="hero-split" id="home">
-      <div class="hero-left">
-        <img src="Images\JuneCAFE.jpg" alt="Cafe Interior">
-      </div>
-      <div class="hero-right">
+      <div class="hero-overlay">
         <h1 data-aos="fade-down" data-aos-duration="1200">Welcome to Dialogue Café</h1>
 
-        <p class="subtitle" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="200">
+        <p class="cuisine-links subtitle" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="200">
           <a href="Images/MENU1.jpg" target="_blank" class="menu-link">Continental</a> ·
           <a href="Images/MENU3.jpg" target="_blank" class="menu-link">Mexican</a> ·
           <a href="Images/MENU4.jpg" target="_blank" class="menu-link">Chinese</a> ·
           <a href="Images/MENU5.jpg" target="_blank" class="menu-link">North Indian</a> ·
           <a href="Images/MENU2.jpg" target="_blank" class="menu-link">American</a>
         </p>
-
 
         <div class="hero-buttons">
           <a href="#menu" class="btn">Menu</a>
@@ -90,7 +112,8 @@
 
 
 
-
+    
+    <!-- ABOUT Section -->
 
 
 
@@ -108,9 +131,18 @@
         </p>
         <ul class="about-details">
           <li><i class="fa fa-map-marker-alt"></i> SCO 301-302, Sector 35, Chandigarh</li>
-          <li><i class="fa fa-clock"></i> 10:30 AM – 10:30 PM (Daily)</li>
+
+
+
+
+          <li><i class="fa fa-clock"></i>
+            <span class="highlight-timing">10:30 AM – 10:30 PM (Daily)</span>
+          </li>
+
+
+
           <li><i class="fa fa-phone"></i> <a href="tel:+919216073888">+91 9216073888</a></li>
-          <li><i class="fa fa-star"></i> 4.1 (Dining) | 4.3 (Delivery)</li>
+          <!-- <li><i class="fa fa-star"></i> 4.1 (Dining) | 4.3 (Delivery)</li> -->
         </ul>
       </div>
 
@@ -128,20 +160,10 @@
 
 
 
-
-
-
-
-
-
     <!-- GALLERY Section -->
     <section class="gallery" id="gallery">
       <h2>Gallery</h2>
       <div class="gallery-grid">
-
-
-
-
 
 
         <img src="Images\interiors.jpg" alt="" class="modal-img" data-aos="fade-up" data-aos-duration="600">
@@ -149,7 +171,7 @@
         <img src="Images\interiors3.jpg" alt="" class="modal-img" data-aos="fade-up" data-aos-duration="600">
         <img src="Images\cafe2.jpg" alt="" class="modal-img" data-aos="fade-up" data-aos-duration="600">
         <img src="Images\cafe5.jpg" alt="" class="modal-img" data-aos="fade-up" data-aos-duration="600">
-        <img src="Images\food2.jpg" alt="" height="10" class="modal-img" data-aos="fade-up" data-aos-duration="600">
+        <img src="Images\food2.jpg" alt=""  class="modal-img" data-aos="fade-up" data-aos-duration="600">
         <img src="Images\food3.jpg" alt="" class="modal-img" data-aos="fade-up" data-aos-duration="600">
         <img src="Images\pasta.jpg" alt="" class="modal-img" data-aos="fade-up" data-aos-duration="600">
         <img src="Images\paneer.jpg" alt="" class="modal-img" data-aos="fade-up" data-aos-duration="600">
@@ -160,7 +182,6 @@
 
       </div>
     </section>
-
 
 
 
@@ -212,7 +233,34 @@
 
 
 
+      <!--MENU QR Code Section -->
+      <div class="menu-category" id="menu-qr">
+        <h3>📲 Scan for Full Menu</h3>
+        <div class="menu-grid">
+          <img src="Images\Menu QR .png" alt="Dialogue Cafe Full Menu QR" class="menu-photo">
+        </div>
+      </div>
+
+
+
+<!-- SOCIAL MEDIA QR Code Section -->
+<div class="menu-category" id="social-qr">
+  <h3>📲 Scan to Follow Us</h3>
+  <div class="menu-grid">
+    <img src="Images\Dialogue_QR.png" alt="Follow Us QR Code" class="menu-photo" width="250" height="250" style="border-radius: 10px; border: 1px solid #ddd;" />
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
       <!-- CONTACT Section -->
+
       <section class="contact" id="contact">
         <h2>Contact Us</h2>
         <form class="contact-form">
@@ -228,33 +276,95 @@
 
 
   <!-- GOOGLE MAP SECTION -->
-  <section class="map-section" id="location">
- <h2 class="map-heading" data-aos="fade-down" data-aos-duration="1000">Find Us</h2>
+ 
 
-    <div class="map-container">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.3212857183516!2d76.76799357454443!3d30.735360074608795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed38b5d268b9%3A0x8fcff6e153df6c4f!2sDialogue%20Cafe!5e0!3m2!1sen!2sin!4v1717264264282!5m2!1sen!2sin"
-        width="100%" height="400" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
+<section class="map-section" id="location">
+  <h2 class="map-heading" data-aos="fade-down" data-aos-duration="1000">Find Us</h2>
+
+  <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.3212857183516!2d76.76799357454443!3d30.735360074608795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed38b5d268b9%3A0x8fcff6e153df6c4f!2sDialogue%20Cafe!5e0!3m2!1sen!2sin!4v1717264264282!5m2!1sen!2sin"
+      allowfullscreen
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+
+
+
+ <!-- FOOTER SECTION -->
+
+
+
+
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <h3>Contact Us</h3>
+        <p><i class="fas fa-phone-alt"></i> +91 9216073888</p>
+        <p><i class="fas fa-map-marker-alt"></i> SCO 301-302, Sector 35, Chandigarh</p>
+        <p><i class="far fa-envelope"></i> dialoguecafe@gmail.com</p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Follow Us</h3>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/Dialoguecafe35/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/dialoguecafe35chd/?hl=en" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://x.com/OrangeInn35chd" target="_blank" title="Twitter (X)"><i class="fab fa-x-twitter"></i></a>
+          <a href="https://in.pinterest.com/orangeinnchd/" target="_blank" title="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+          <a href="https://wa.me/919216073888" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
     </div>
-  </section>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Dialogue Café | All rights reserved.</p>
+  </div>
+</footer>
 
 
 
 
 
-  <footer>
-    <div>© 2025 Dialogue Café | All rights reserved.</div>
-    <div class="footer-social">
-      <a href="https://www.facebook.com/Dialoguecafe35/" target="_blank" title="Facebook">
-        <i class="fab fa-facebook"></i>
-      </a>
-      <a href="https://www.instagram.com/dialoguecafe35chd/?hl=en" target="_blank" title="Instagram">
-        <i class="fab fa-instagram"></i>
-      </a>
-    </div>
-  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <script src="script.js"></script>
 
@@ -280,6 +390,21 @@
       <a href="https://x.com/OrangeInn35chd" target="_blank" class="social-icon x" title="X (Twitter)">
         <i class="fab fa-x-twitter"></i>
       </a>
+
+
+
+      <a href="https://in.pinterest.com/orangeinnchd/" class="social-icon pinterest" title="📌 Pinterest"
+        target="_blank">
+        <img src="Pinterest-logo.png" alt="Pinterest" style="width: 32px; height: 32px; border-radius: 8px;">
+      </a>
+
+
+
+      <a href="https://wa.me/919216073888" target="_blank" class="floating-whatsapp" title="Chat on WhatsApp">
+        <img src="Images\whatsapp_3536445.png" alt="WhatsApp" />
+      </a>
+
+
 
     </a>
   </div>

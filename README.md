@@ -1,5 +1,5 @@
 # Dialogue Cafe-Website
-Designed and developed a fully responsive, interactive website for Dialogue Café, a family-owned restaurant in Chandigarh. The site showcases the digital menu, animated sections, a reservation/contact form, and social media integration to enhance customer engagement.
+Designed and developed a fully responsive, full-stack interactive website for Dialogue Café, a restaurant in Chandigarh under Orange Inn Pvt. Ltd. The site features a digital menu, animated sections, a reservation/contact form with backend table booking functionality, QR codes for scanning the menu and accessing social media handles, and social media integration to enhance customer engagement."
 
 # Features
 Responsive Design: Optimized for mobile, tablet, and desktop viewports using CSS Grid and Flexbox.
